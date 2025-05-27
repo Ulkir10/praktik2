@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MARS Dashboard</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      background-color: #fef8f8;
+    }
+
+    .navbar {
+      background-color: #000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 30px;
+    }
+
+    .navbar-left img {
+      height: 40px;
+    }
+
+    .navbar-center {
+      display: flex;
+      gap: 20px;
+    }
+
+    .navbar-center button {
+      background: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 12px;
+      font-size: 16px;
+      cursor: pointer;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .navbar-right img {
+      height: 40px;
+      border-radius: 50%;
+    }
+
+    .card {
+      max-width: 320px;
+      margin: 60px auto;
+      background: white;
+      border-radius: 24px;
+      text-align: center;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+      padding-bottom: 20px;
+    }
+
+    .card img.top-badge {
+      width: 100px;
+      margin-top: -50px;
+    }
+
+    .gamer-label {
+      color: #3797F0;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .stars {
+      color: #f4c542;
+      font-size: 20px;
+      margin: 10px 0;
+    }
+
+    .name {
+      font-size: 18px;
+      font-weight: bold;
+      color: #001858;
+    }
+
+    .class-info {
+      font-size: 14px;
+      color: #777;
+    }
+
+    .card-footer {
+      display: flex;
+      justify-content: space-around;
+      background: linear-gradient(286.17deg, #E33D0E 0%, #FF7D58 100%);
+
+      padding: 10px 0;
+      border-bottom-left-radius: 24px;
+      border-bottom-right-radius: 24px;
+      color: white;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .card-footer div {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <div class="navbar-left">
+      <img src="Logo (3).png" alt="Logo">
+    </div>
+    <div class="navbar-center">
+      <button><a href="index.html">🏠</a></button>
+      <button>Learning</button>
+      <button>Shop</button>
+    </div>
+    <div class="navbar-right">
+      <img src="Student Profile.png" alt="User">
+    </div>
+  </div>
+
+  <div class="card">
+    <img class="top-badge" src="Profile Picture.png" alt="Badge">
+    <div class="gamer-label">Gamer</div>
+    <div class="stars">⭐⭐⭐⭐⭐</div>
+    <div class="name">Abdulloh abdullayev</div>
+    <div class="class-info">DS - 713 | Fayzullo Davronov</div>
+    <div class="card-footer">
+      <div><img src="" alt="" width="20"> 428</div>
+      <div><img src="" alt="" width="20"> 428</div>
+    </div>
+  </div>
+</body>
+</html>
